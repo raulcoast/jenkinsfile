@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         DOCKER_IMAGE = 'raulcoast/meuappflutter:latest'  // Nome da imagem no Docker Hub
-        DOCKER_CREDENTIALS = 'c6950ee8-bbcb-4d76-bd7e-9399caa149c6'  // ID das credenciais do Docker no Jenkins
+        DOCKER_CREDENTIALS = '38d9aa3d-0a5f-4a7d-ac18-204e126c6d2d'  // ID das credenciais do Docker no Jenkins
     }
 
     stages {
