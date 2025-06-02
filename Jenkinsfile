@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/raulcoast/meuappflutter'
+                git 'https://github.com/raulcoast/jenkinsfile'
             }
         }
 
